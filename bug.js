@@ -1,0 +1,2 @@
+This bug occurs when using the Expo CLI to build an Android APK.  The build process fails with an error similar to "Execution failed for task ':app:mergeDebugResources'.  > A failure occurred while executing com.android.build.gradle.internal.res.ResourceCompilerTool$ResourceCompilationJob",
+ often pointing to a problem with a specific resource file, such as an image or layout XML.  However, the error message itself can be vague, and the actual problem might lie elsewhere in the project's configuration or dependencies.
